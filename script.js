@@ -1,10 +1,7 @@
-let firstNum = +prompt("Enter a number", "");
-let sum = 0;
-let i = 1; // We create the i variable because its value will change
-// from 1 upto the entered number
-
-while(i <= firstNum){
-	sum += i;
-	i++;
+let bookPrice = 30;
+let budget = 80;
+while(budget>= bookPrice){
+	budget = budget-bookPrice;
+	console.log("I have bought a book")
 }
-console.log(sum);
+console.log("Balance: $" + budget);
